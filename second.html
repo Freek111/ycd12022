@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+            function optellen() {
+                var inputvalue1 = document.getElementById("inputField1")
+                var inputvalue2 = document.getElementById("inputField2")
+                var firstvalue1 = parseInt(inputvalue1)
+                var firstvalue2 = parseInt(inputvalue2)
+                var result = firstvalue1 + firstvalue2
+                alert(document.getElementById(result))
+            }
+            function aftrekken() {
+                var inputvalue1 = document.getElementById("inputField1")
+                var inputvalue2 = document.getElementById("inputField2")
+                var firstvalue1 = parseInt(inputvalue1)
+                var firstvalue2 = parseInt(inputvalue2)
+                var result = firstvalue1 - firstvalue2
+                alert(document.getElementById(result))
+            }            
+            function vermenigvuldigen() {
+                var inputvalue1 = document.getElementById("inputField1")
+                var inputvalue2 = document.getElementById("inputField2")
+                var firstvalue1 = parseInt(inputvalue1)
+                var firstvalue2 = parseInt(inputvalue2)
+                var result = firstvalue1 * firstvalue2
+                alert(document.getElementById(result))
+            }           
+             function delen() {
+                var inputvalue1 = document.getElementById("inputField1")
+                var inputvalue2 = document.getElementById("inputField2")
+                var firstvalue1 = parseInt(inputvalue1)
+                var firstvalue2 = parseInt(inputvalue2)
+                var result = firstvalue1 / firstvalue2
+                alert(document.getElementById(result))
+            }
+
+
+    </script>
+
+</head>
+<body>
+   
+        <input id="inputField1" type = "text" placeholder="Vul iets in">
+        <input id="inputField2" type = "text" placeholder="Vul iets in">
+        <button onclick=optellen>optellen</button>   
+        <button onclick=aftrekken>aftrekken</button>   
+        <button onclick=vermenigvuldigen>vermenigvuldigen</button>   
+        <button onclick=delen>delen</button>   
+
+    
+
+
+
+</body>
+</html>
